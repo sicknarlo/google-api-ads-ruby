@@ -12,6 +12,9 @@ class AccountController < ApplicationController
     redirect_to home_index_path
   end
 
+
+# this is a comment
+
   private
 
   def get_accounts_graph()
