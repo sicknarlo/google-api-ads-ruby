@@ -36,6 +36,8 @@ module AdwordsOnRails
     # Configure the default encoding used in templates for Ruby 1.9.
     config.encoding = "utf-8"
 
+    ENV['SSL_CERT_FILE'] = Gem.loaded_specs['google-api-client'].full_gem_path+'/lib/cacerts.pem'
+
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
 

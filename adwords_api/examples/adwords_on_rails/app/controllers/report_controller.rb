@@ -7,7 +7,7 @@ class ReportController < ApplicationController
     :selector => {
       :fields => []
     },
-    :report_name => 'AdWords on Rails report',
+    :report_name => 'Inventory Crawler Report',
     :report_type => nil,
     :download_format => nil,
     :date_range_type => 'LAST_7_DAYS'
